@@ -33,7 +33,7 @@ const CartContainer = () => {
           <hr />
           <div className="cart-total">
             <h4>
-              合計 <span>{total}円</span>
+              合計 <span>{total.toLocaleString()}円</span>
             </h4>
           </div>
           <button
